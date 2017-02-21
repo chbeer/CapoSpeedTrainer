@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA26C4231E5C6E88007B2788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26C4221E5C6E88007B2788 /* AppDelegate.swift */; };
+		AA26C4251E5C6E88007B2788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26C4241E5C6E88007B2788 /* ViewController.swift */; };
+		AA26C4271E5C6E88007B2788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26C4261E5C6E88007B2788 /* Assets.xcassets */; };
+		AA26C42A1E5C6E89007B2788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26C4281E5C6E89007B2788 /* Main.storyboard */; };
+		AA26C4351E5C6E89007B2788 /* CapoSpeedTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26C4341E5C6E89007B2788 /* CapoSpeedTrainerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA26C4311E5C6E89007B2788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA26C4171E5C6E88007B2788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA26C41E1E5C6E88007B2788;
+			remoteInfo = CapoSpeedTrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA26C41F1E5C6E88007B2788 /* CapoSpeedTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapoSpeedTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26C4221E5C6E88007B2788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA26C4241E5C6E88007B2788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AA26C4261E5C6E88007B2788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA26C4291E5C6E89007B2788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA26C42B1E5C6E89007B2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA26C4301E5C6E89007B2788 /* CapoSpeedTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapoSpeedTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA26C4341E5C6E89007B2788 /* CapoSpeedTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapoSpeedTrainerTests.swift; sourceTree = "<group>"; };
+		AA26C4361E5C6E89007B2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA26C41C1E5C6E88007B2788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26C42D1E5C6E89007B2788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA26C4161E5C6E88007B2788 = {
+			isa = PBXGroup;
+			children = (
+				AA26C4211E5C6E88007B2788 /* CapoSpeedTrainer */,
+				AA26C4331E5C6E89007B2788 /* CapoSpeedTrainerTests */,
+				AA26C4201E5C6E88007B2788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA26C4201E5C6E88007B2788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA26C41F1E5C6E88007B2788 /* CapoSpeedTrainer.app */,
+				AA26C4301E5C6E89007B2788 /* CapoSpeedTrainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA26C4211E5C6E88007B2788 /* CapoSpeedTrainer */ = {
+			isa = PBXGroup;
+			children = (
+				AA26C4221E5C6E88007B2788 /* AppDelegate.swift */,
+				AA26C4241E5C6E88007B2788 /* ViewController.swift */,
+				AA26C4261E5C6E88007B2788 /* Assets.xcassets */,
+				AA26C4281E5C6E89007B2788 /* Main.storyboard */,
+				AA26C42B1E5C6E89007B2788 /* Info.plist */,
+			);
+			path = CapoSpeedTrainer;
+			sourceTree = "<group>";
+		};
+		AA26C4331E5C6E89007B2788 /* CapoSpeedTrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA26C4341E5C6E89007B2788 /* CapoSpeedTrainerTests.swift */,
+				AA26C4361E5C6E89007B2788 /* Info.plist */,
+			);
+			path = CapoSpeedTrainerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA26C41E1E5C6E88007B2788 /* CapoSpeedTrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA26C4391E5C6E89007B2788 /* Build configuration list for PBXNativeTarget "CapoSpeedTrainer" */;
+			buildPhases = (
+				AA26C41B1E5C6E88007B2788 /* Sources */,
+				AA26C41C1E5C6E88007B2788 /* Frameworks */,
+				AA26C41D1E5C6E88007B2788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapoSpeedTrainer;
+			productName = CapoSpeedTrainer;
+			productReference = AA26C41F1E5C6E88007B2788 /* CapoSpeedTrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA26C42F1E5C6E89007B2788 /* CapoSpeedTrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA26C43C1E5C6E89007B2788 /* Build configuration list for PBXNativeTarget "CapoSpeedTrainerTests" */;
+			buildPhases = (
+				AA26C42C1E5C6E89007B2788 /* Sources */,
+				AA26C42D1E5C6E89007B2788 /* Frameworks */,
+				AA26C42E1E5C6E89007B2788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA26C4321E5C6E89007B2788 /* PBXTargetDependency */,
+			);
+			name = CapoSpeedTrainerTests;
+			productName = CapoSpeedTrainerTests;
+			productReference = AA26C4301E5C6E89007B2788 /* CapoSpeedTrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA26C4171E5C6E88007B2788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christian Beer";
+				TargetAttributes = {
+					AA26C41E1E5C6E88007B2788 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7UMMMKVNA9;
+						ProvisioningStyle = Automatic;
+					};
+					AA26C42F1E5C6E89007B2788 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 7UMMMKVNA9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AA26C41E1E5C6E88007B2788;
+					};
+				};
+			};
+			buildConfigurationList = AA26C41A1E5C6E88007B2788 /* Build configuration list for PBXProject "CapoSpeedTrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA26C4161E5C6E88007B2788;
+			productRefGroup = AA26C4201E5C6E88007B2788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA26C41E1E5C6E88007B2788 /* CapoSpeedTrainer */,
+				AA26C42F1E5C6E89007B2788 /* CapoSpeedTrainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA26C41D1E5C6E88007B2788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26C4271E5C6E88007B2788 /* Assets.xcassets in Resources */,
+				AA26C42A1E5C6E89007B2788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26C42E1E5C6E89007B2788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA26C41B1E5C6E88007B2788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26C4251E5C6E88007B2788 /* ViewController.swift in Sources */,
+				AA26C4231E5C6E88007B2788 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA26C42C1E5C6E89007B2788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA26C4351E5C6E89007B2788 /* CapoSpeedTrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA26C4321E5C6E89007B2788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA26C41E1E5C6E88007B2788 /* CapoSpeedTrainer */;
+			targetProxy = AA26C4311E5C6E89007B2788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA26C4281E5C6E89007B2788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA26C4291E5C6E89007B2788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA26C4371E5C6E89007B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA26C4381E5C6E89007B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		AA26C43A1E5C6E89007B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
+				INFOPLIST_FILE = CapoSpeedTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chbeer.osx.CapoSpeedTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AA26C43B1E5C6E89007B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
+				INFOPLIST_FILE = CapoSpeedTrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chbeer.osx.CapoSpeedTrainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AA26C43D1E5C6E89007B2788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
+				INFOPLIST_FILE = CapoSpeedTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chbeer.osx.CapoSpeedTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapoSpeedTrainer.app/Contents/MacOS/CapoSpeedTrainer";
+			};
+			name = Debug;
+		};
+		AA26C43E1E5C6E89007B2788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7UMMMKVNA9;
+				INFOPLIST_FILE = CapoSpeedTrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.chbeer.osx.CapoSpeedTrainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapoSpeedTrainer.app/Contents/MacOS/CapoSpeedTrainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA26C41A1E5C6E88007B2788 /* Build configuration list for PBXProject "CapoSpeedTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26C4371E5C6E89007B2788 /* Debug */,
+				AA26C4381E5C6E89007B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA26C4391E5C6E89007B2788 /* Build configuration list for PBXNativeTarget "CapoSpeedTrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26C43A1E5C6E89007B2788 /* Debug */,
+				AA26C43B1E5C6E89007B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA26C43C1E5C6E89007B2788 /* Build configuration list for PBXNativeTarget "CapoSpeedTrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26C43D1E5C6E89007B2788 /* Debug */,
+				AA26C43E1E5C6E89007B2788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA26C4171E5C6E88007B2788 /* Project object */;
+}
