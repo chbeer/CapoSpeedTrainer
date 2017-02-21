@@ -12,6 +12,7 @@
 		AA26C4271E5C6E88007B2788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA26C4261E5C6E88007B2788 /* Assets.xcassets */; };
 		AA26C42A1E5C6E89007B2788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA26C4281E5C6E89007B2788 /* Main.storyboard */; };
 		AA26C4351E5C6E89007B2788 /* CapoSpeedTrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA26C4341E5C6E89007B2788 /* CapoSpeedTrainerTests.swift */; };
+		AA26C4401E5C7DFC007B2788 /* CapoMenuAccess.scpt in Resources */ = {isa = PBXBuildFile; fileRef = AA26C43F1E5C7DFC007B2788 /* CapoMenuAccess.scpt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		AA26C4301E5C6E89007B2788 /* CapoSpeedTrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapoSpeedTrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA26C4341E5C6E89007B2788 /* CapoSpeedTrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapoSpeedTrainerTests.swift; sourceTree = "<group>"; };
 		AA26C4361E5C6E89007B2788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA26C43F1E5C7DFC007B2788 /* CapoMenuAccess.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = CapoMenuAccess.scpt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				AA26C4261E5C6E88007B2788 /* Assets.xcassets */,
 				AA26C4281E5C6E89007B2788 /* Main.storyboard */,
 				AA26C42B1E5C6E89007B2788 /* Info.plist */,
+				AA26C43F1E5C7DFC007B2788 /* CapoMenuAccess.scpt */,
 			);
 			path = CapoSpeedTrainer;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				AA26C4271E5C6E88007B2788 /* Assets.xcassets in Resources */,
 				AA26C42A1E5C6E89007B2788 /* Main.storyboard in Resources */,
+				AA26C4401E5C7DFC007B2788 /* CapoMenuAccess.scpt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
